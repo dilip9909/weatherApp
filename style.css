@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vmax;
+    list-style-type: none;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    background:
+    linear-gradient(127deg, rgba(165, 174, 176, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(69, 69, 119, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.container{
+    background:
+            linear-gradient(127deg, rgba(165, 174, 176, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+        height: 100vh;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.temp>p:first-child{
+    font-size: 3rem;
+}
+.weather{
+    width: 30vmax;
+    height: 20vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmax;
+
+    background-color: rgba(80, 193, 206, 0.184);
+    color: black;
+   
+    border-radius: 15vmax;
+}
+
+.condition>img{
+    height: 4vmax;
+    width:4vmax;
+}
+
+
+
+.temcon{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 2px;
+}
+.winfo,.time{
+    display: flex;
+    justify-content:space-around;  
+    width: 50%;   
+   
+}
+.winfo{
+    background-color: rgba(6, 216, 202, 0.588);
+    border-radius: 3vmax;
+}
+.temp>div>li{
+    list-style-type: none;
+    
+}
+.temp p>span{
+    font-weight: bold;
+    font-size:1.5vmax ;
+}
+.time{
+    margin: 1.5vmax 1vmax;
+    font-weight: bold;
+}
+nav{
+position:relative;
+top: 5vmax;
+}
+.searchField{
+    
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid white;
+
+  }
+    
+
+form>button{
+    background-color:rgba(33, 16, 222, 0.882);
+    border: none;
+   border-radius: 1vmax;
+    color: rgb(251, 251, 254);
+    font-size: .8vmax;
+    font-family: cursive;
+    height: 2vmax;
+    width: 4vmax;
+}
+form>button:hover{
+    background-color:rgba(94, 93, 40, 0.248);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
