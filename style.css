@@ -1,16 +1,24 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  sans-serif;
     font-size: 1vmax;
     list-style-type: none;
+   
 }
 h1{
     font-size: 3rem;
-    text-align: center;
-    background:
-    linear-gradient(127deg, rgba(165, 174, 176, 0.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(69, 69, 119, 0.8), rgba(0,0,255,0) 70.71%);
+    display: flex;
+    justify-content: center;
+
+    
+    color: black;
+    background-color: transparent;
+    position:absolute;
+   top: 2vmax;
+   
+   border-bottom: 1.5px solid white;
+   box-shadow: rgb(226, 236, 236);
 }
 .container{
     background:
@@ -28,13 +36,13 @@ h1{
     font-size: 3rem;
 }
 .weather{
-    width: 30vmax;
-    height: 20vmax;
+    width: 40vmax;
+    height: 30vmax;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2vmax;
+    margin: 3vmax 0;
 
     background-color: rgba(80, 193, 206, 0.184);
     color: black;
